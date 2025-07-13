@@ -1,0 +1,13 @@
+# Ignore node modules
+node_modules/
+
+# Ignore environment variables
+
+
+# Optional: Ignore QR image outputs and logs
+generated_qr/
+url.txt
+
+# Ignore all files in generated_qr except .gitkeep
+generated_qr/*
+!generated_qr/.gitkeep
