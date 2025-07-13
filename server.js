@@ -13,6 +13,11 @@ const PORT = 3000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const qrDir = path.join(__dirname, 'generated_qr');
+
+if (!fs.existsSync(qrDir)) {
+    fs.mkdirSync(qrDir, { recursive: true });
+}
 
 // Middleware
 app.use(express.json()); // Required to parse JSON body
