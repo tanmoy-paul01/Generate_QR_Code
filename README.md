@@ -22,7 +22,6 @@ This app allows users to:
 ---
 
 ## 📂 Project Structure
-
 QR-Code-Generator/
 ├── public/ # Frontend (HTML, CSS, JS)
 │ ├── assets/ # Icons and media
@@ -47,8 +46,7 @@ QR-Code-Generator/
 git clone https://github.com/alok9064/QR-Code-Generator.git
 cd QR-Code-Generator
 npm install
-
-
+---
 
 🚀 Run the App Locally
 node server.js
