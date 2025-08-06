@@ -44,11 +44,10 @@ QR-Code-Generator/
 - [Git](https://git-scm.com/)
 
 ### Steps
-
-
-git clone https://github.com/tanmoy-paul01/QR-Code-Generator.git
+git clone https://github.com/alok9064/QR-Code-Generator.git
 cd QR-Code-Generator
 npm install
+
 
 
 🚀 Run the App Locally
