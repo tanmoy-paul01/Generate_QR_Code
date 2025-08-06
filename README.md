@@ -45,7 +45,7 @@ QR-Code-Generator/
 
 ### Steps
 
-```bash
+
 git clone https://github.com/tanmoy-paul01/QR-Code-Generator.git
 cd QR-Code-Generator
 npm install
